@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  background: #fafafa;
+  font-size: 25px;
+  font-weight: bold;
+  color: #777979;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.container-tabela{
+  width: 50%
+}
+
+.tabela {
+  width: 90%;
+}
+
+.tabela td tr{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabela tr:hover {background-color: #ddd;}
+
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.input-style {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+.actions{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.salvar {
+  color: white;
+  background: green;
+  border: none;
+  cursor: pointer;
+  height: 35px;
+  width: 120px;
+  border-radius: 4px;
+}
+
+.cancelar {
+  color: black;
+  background: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  height: 35px;
+  width: 120px;
+  border-radius: 4px;
+}
